@@ -11,12 +11,34 @@ body {
 
 .container {
   font-family: "Roboto", sans-serif;
+  background-color: #eff2ff;
 }
 
 .container-item {
-  color: rgb(55, 138, 255);
-  background-color: #eff2ff;
-  font-size: 3rem;
+  position: relative;
+  max-width: 25rem;
+  padding: 0.05rem 2rem;
+  overflow: hidden;
+  border-bottom: 1px solid;
+
+  font-size: 3.4rem;
   font-weight: 300;
   font-style: normal;
+
+  color: rgb(55, 138, 255);
+
+  cursor: pointer;
+}
+
+.container-item span {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  top: 1rem;
+  transition: top 300ms ease-in-out;
+}
+
+.container-item span:hover {
+  top: 0;
+  position: relative;
 }
