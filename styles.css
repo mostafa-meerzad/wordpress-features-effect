@@ -8,3 +8,15 @@ body {
   align-items: center;
   min-height: 100svh;
 }
+
+.container {
+  font-family: "Roboto", sans-serif;
+}
+
+.container-item {
+  color: rgb(55, 138, 255);
+  background-color: #eff2ff;
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: normal;
+}
